@@ -16,8 +16,8 @@ function App() {
         Please try pressing <code>F12</code> to open the devTool
       </p>
       <div className="actions">
-        <div className="action">
-          <a href="https://electron-vite.org/" target="_blank" rel="noreferrer">
+        <div className="">
+          <a className='text-black bg-white p-3 rounded-xl hover:bg-amber-300 cursor-pointer' href="https://electron-vite.org/" target="_blank" rel="noreferrer">
             Documentation
           </a>
         </div>
