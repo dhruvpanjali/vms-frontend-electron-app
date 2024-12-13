@@ -1,0 +1,44 @@
+
+/* ----------ANT SELECT----------- */
+.ant-select {
+  height: fit-content !important;
+}
+.ant-select-selector {
+  padding: 0.85rem 1.25rem !important;
+  /* padding-right: 0 !important; */
+  border-width: 2px !important;
+}
+.ant-select-selection-placeholder, .ant-select-selection-item {
+  /* padding: 0 !important; */
+  /* margin-left: 8px !important; */
+  font-size: 1rem;
+  font-weight: 600 !important;
+}
+.ant-select-prefix{
+  margin: 0 !important;
+}
+.ant-select-arrow {
+  font-size: 16px !important;
+  width: 1.5rem !important;
+  color: #888888 !important; /* Replace with your tailwind color */
+}
+/* ----------ANT INPUT----------- */
+.ant-input-affix-wrapper{
+  padding: 1rem 1.25rem !important;
+  border-width: 2px !important;
+}
+.ant-input{
+  padding: 0 !important;
+  margin-left: 8px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+}
+/* -----checkbox */
+.ant-checkbox-inner{
+  /* border: 1px solid !important; */
+  width: 22px !important;
+  height: 22px !important;
+}
+.ant-checkbox-inner::after{
+  inset-inline-start: 32% !important; 
+}
